@@ -4,13 +4,13 @@ Calculadora simples em Java, utilizando JFrame. Realizada na disciplina de Progr
 
 **Autor:** Gabriel C. S. Silva
 
-# CLASSES
-## Interface
+## CLASSES
+### Interface
 Classe principal, contendo a interface da calculadora.
 
-## Calculo
+### Calculo
 Classe utilizada para realização dos calculos, retornando o resultado à classe principal.
 
-# TELA
+## TELA
 
-<img src="https://raw.githubusercontent.com/Gabriel-CSS/CalculadoraJAVATOP/master/Calculadora/src/calcula/TelaCalculadora.png" width="460" />
+<img src="https://raw.githubusercontent.com/Gabriel-CSS/CalculadoraJAVATOP/master/Calculadora/src/calcula/TelaCalculadora.png" width="360" />
