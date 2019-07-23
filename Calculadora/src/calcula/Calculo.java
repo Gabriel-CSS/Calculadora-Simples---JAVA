@@ -6,14 +6,17 @@ import javax.script.ScriptException;
 
 public class Calculo {
     
-    public double calculaPraMim(String result) throws ScriptException{
-        double resultado;
+    public String calculaPraMim(String result) throws ScriptException{
+        String resultado;
         
         ScriptEngine engine = new ScriptEngineManager().getEngineByName("JavaScript");
         if(result == "0" || result == ""){
-            resultado = 0;
+            resultado = "0";
         }else{
-            resultado = Double.parseDouble(engine.eval(result)+"");
+            resultado = engine.eval(result)+"";
+        }
+        if(resultado == "0.0"){
+            resultado = "0";
         }
         return resultado;
     }
